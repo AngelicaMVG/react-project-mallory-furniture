@@ -6,7 +6,11 @@ export default class Nav extends Component {
   render() {
     return (
       <div className="nav">
-        <img src={logo} alt="" />
+        <div className="logo-nav">
+          <Link to="/">
+            <img src={logo} alt="" />
+          </Link>
+        </div>
         <ul>
           <li>
             <Link to="/about">About</Link>
